@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/7c81a120ee.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title>ToDo List</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Search section-->
+
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">ToDo List</h1>
+            <form class="search">
+                <input class="form-control m-auto" type="text" name="search" placeholder="Search ToDos...">
+            </form>
+        </header>
+
+        <!-- ToDo list section-->
+
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class>Read a book</span>
+                <i class="fa fa-trash-o delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class>Pick up kids</span>
+                <i class="fa fa-trash-o delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class>Workout</span>
+                <i class="fa fa-trash-o delete"></i>
+            </li>
+        </ul>
+
+        <!-- Add section-->
+
+        <form class="add text-center my-4">
+            <label class="text-white">Add a new Todo</label>
+            <input class="form-control m-auto" type="text" name="add" placeholder="Add Todo..."/>
+        </form>
+
+    </div>
+
+
+
+    <script src="script1.js"></script>
+</body>
+</html>
